@@ -7,52 +7,146 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<header><!--页头-->
-  <nav>
-    <div class = "logo"><a href="#">LOGO</a></div>
-    <ul>
-      <li><a href="#">链接1</a></li>
-      <li><a href="#">链接2</a></li>
-      <li><a href="#">链接3</a></li>
-      <li><a href="#">链接4</a></li>
-    </ul>
-  </nav>
-  <div id="banner">
-    <div class="inner">
-      <h1>xxx</h1>
-      <p class="sub-heading">Lorem ipsum dolor sit amet,iciis optio quh dfggdfg gfdg gdfg</p>
-      <button>Konw me</button>
-      <div class="more">
-        更多
+<div class="main-wrapper">
+  <header id="block-top"><!--页头-->
+    <nav id="block-nav">
+      <div class="logo"><a href="#block-top">Eli Lai</a></div>
+      <ul>
+        <li><a href="#">链接1</a></li>
+        <li><a href="#">链接2</a></li>
+        <li><a href="#">链接3</a></li>
+        <li id="sidebar-trigger"><a href="####">链接4</a></li>
+      </ul>
+    </nav>
+    <div id="banner">
+      <div class="inner">
+        <h1>xxx</h1>
+        <p class="sub-heading">Lorem ipsum dolor sit amet,iciis optio quh dfggdfg gfdg gdfg</p>
+        <button>Konw me</button>
+        <div class="more">
+          <a href="#block-content1">更多</a>
+        </div>
       </div>
     </div>
-  </div>
-</header>
+  </header>
 
-<div class="content"><!--内容-->
-  <section class="green-section">
-    <div class="wrapper">
-      <div>
-        <h2>title2</h2>
+
+
+  <div class="content"><!--内容-->
+    <section id="block-content1" class="green-section">
+      <div class="wrapper">
+        <div>
+          <h2>title2</h2>
+          <div class="hr"></div>
+          <p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci at ex ipsam minima
+            officiis similique vol</p>
+        </div>
+        <div class="icon-group">
+          <span class="icon">1</span>
+          <span class="icon">2</span>
+          <span class="icon">3</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="block-content2" class="gray-section">
+      <div class="article-preview clearfix">
+        <div class="text-section">
+          <h2>title again</h2>
+          <div class="sub-heading">
+            sub titttle
+          </div>
+          <p>12 545 56gdfg gdffg s gdfsg sfg sdfg sdfg sdfgsdfgrg fg dfg sdfg rg fg dfg sdfg rg fg dfg sdfg rg fg dfg
+            sdfg</p>
+        </div>
+        <div class="img-section">
+          <img src="img/pic01.jpg" alt="">
+        </div>
+      </div>
+      <div class="article-preview clearfix">
+        <div class="text-section">
+          <h2>title again</h2>
+          <div class="sub-heading">
+            sub titttle
+          </div>
+          <p>12 545 56gdfg gdffg s gdfsg sfg sdfg sdfg sdfgsdfgrg fg dfg sdfg rg fg dfg sdfg rg fg dfg sdfg rg fg dfg
+            sdfg</p>
+        </div>
+        <div class="img-section">
+          <img src="img/pic01.jpg" alt="">
+        </div>
+      </div>
+      <div class="article-preview clearfix">
+        <div class="text-section">
+          <h2>title again</h2>
+          <div class="sub-heading">
+            sub titttle
+          </div>
+          <p>12 545 56gdfg gdffg s gdfsg sfg sdfg sdfg sdfgsdfgrg fg dfg sdfg rg fg dfg sdfg rg fg dfg sdfg rg fg dfg
+            sdfg</p>
+        </div>
+        <div class="img-section">
+          <img src="img/pic01.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section id="block-content3" class="purple-section">
+      <div class="heading-wrapper">
+        <h2>another title</h2>
         <div class="hr"></div>
-        <p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci at ex ipsam minima officiis similique vol</p>
+        <div class="sub-heading">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. A asperiores incidunt, ipsa nam nobis quae
+          repudiandae? Accusantium beatae esse, excep
+        </div>
       </div>
-      <div class="icon-group class="icon" ">
-        <span class="icon">1</span>
-        <span class="icon">2</span>
-        <span class="icon">3</span>
+      <div class="card-group clearfix">
+        <div class="card">
+          <h3>333</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A</p>
+        </div>
+        <div class="card">
+          <h3>333</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A</p>
+        </div>
+        <div class="card">
+          <h3>333</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A</p>
+        </div>
+        <div class="card">
+          <h3>333</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A</p>
+        </div>
       </div>
+    </section>
+  </div>
+
+  <footer><!--页脚-->
+    <ul class="share-group">
+      <li>item1</li>
+      <li>item2</li>
+      <li>item3</li>
+      <li>item4</li>
+      <li>item5</li>
+    </ul>
+    <div class="copy">
+      &copy ELI
     </div>
-  </section>
-
-  <section class="gray-section"></section>
-  <section class="purple-section"></section>
+  </footer>
 </div>
+<div class="mask">
 
-<footer><!--页脚-->
-
-</footer>
-
-
+</div>
+<div id="sidebar">
+  <ul>
+    <li><a href="#block-top">Top</a></li>
+    <li><a href="#block-content1">Content1</a></li>
+    <li><a href="#block-content2">Content2</a></li>
+    <li><a href="#block-content3">Content3</a></li>
+  </ul>
+</div>
+<button id="back-to-top">返回顶部</button>
+<script src="lib/jquery.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
